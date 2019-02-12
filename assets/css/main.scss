@@ -2,3 +2,8 @@
 # This is the Front Matter block
 ---
 @import "vendor/reset";
+@import "sites/home";
+
+body {
+  font-family: Arial;
+}
