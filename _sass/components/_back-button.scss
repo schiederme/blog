@@ -1,0 +1,25 @@
+.back-button {
+  display: block;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  right: 30px;
+  top: 40px;
+
+  a {
+    transition: all .2s;
+    font-size: 22px;
+    line-height: 66px;
+    text-align: center;
+    background: #efefef;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #000;
+    height: inherit;
+    display: block;
+    width: inherit;
+    border-radius: 100%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
