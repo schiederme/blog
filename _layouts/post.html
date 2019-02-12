@@ -1,9 +1,12 @@
 {% include header.html %}
-<a class="" href="/">↩︎</a>
+<div class="back-button">
+  <a class="" href="/">↩︎</a>
+</div>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time></p>
     <span class="reading-time" title="Estimated read time">Estimated read time
       {% assign words = content | number_of_words %}
       {% if words < 360 %}
