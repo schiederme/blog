@@ -1,0 +1,45 @@
+article {
+  margin: 0px auto;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 620px;
+  padding: 45px;
+
+  header {
+    margin-bottom: 35px;
+    margin-top: 14px;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 7px;
+      font-weight: 500;
+      line-height: 1.3em;
+    }
+
+    p {
+      font-size: 14px;
+      display: inline-block;
+      color: rgb(124, 124, 124);
+    }
+
+    span {
+      font-size: 14px;
+      display: inline-block;
+      color: rgb(124, 124, 124);
+    }
+  }
+
+  .post-content {
+    p {
+      font-size: 16px;
+      line-height: 25px;
+      margin: 22px 0px;
+    }
+
+    a {
+      color: #F03F53;
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+  }
+}
